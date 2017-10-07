@@ -1,0 +1,22 @@
+---
+title: "Data Products - Course Project"
+author: "Stephen Gillanders"
+date: "10/7/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE,echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## NGC7531 Velocities Explorer
+
+This is a small explorer for radial velocities of the NGC7531 galaxy.
+The velocity data is taken from the R language "ElemStatLearn" library, dataset "galaxy". For further reference consult the R Documentation pages.
+
+The explorer lets you select which type of chart to show, either one based on location (east/west, north/south) or by radial position (distance from the origin).
+In addition you may select the observations for a given angle.
+
+If you choose the radial position chart and one or more specific angles of observation, the application will attempt to fit a cubic to the velocity data.
+
+In the "cubic fit" tab you may find a summary of the attempted fitted model.

@@ -1,0 +1,10 @@
+name: wk4_galaxy
+title:
+username:
+account: sgillans
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 222870
+bundleId: 1015434
+url: https://sgillans.shinyapps.io/wk4_galaxy/
+when: 1507391677.28252
