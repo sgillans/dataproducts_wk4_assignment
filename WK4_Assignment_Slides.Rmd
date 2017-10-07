@@ -5,11 +5,6 @@ date: "10/7/2017"
 output: ioslides_presentation
 ---
 
-.title-slide {
-  background-color: #CBE7A5; /* #EDE0CF; ; #CA9F9D*/
-  /* background-image:url(http://goo.gl/EpXln); */
-}
-
 ```{r setup, include=FALSE, echo=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(ElemStatLearn)
@@ -22,7 +17,7 @@ Presented here is a small Shiny app for exploring the "galaxy" dataset in the "E
 
 The running Shiny application can be seen at [WK4_Galaxy](https://sgillans.shinyapps.io/wk4_galaxy/).
 
-The code can be found on []().
+The code can be found on [github.com](https://github.com/sgillans/dataproducts_wk4_assignment).
 
 The following four slides show some aspects of the dataset and the app.
 
